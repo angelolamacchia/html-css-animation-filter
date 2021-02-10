@@ -172,12 +172,12 @@
   animation-timing-function: linear;
 }
 @keyframes rotate_top {
-  0% {transform: translate(0);}
-  20% {transform: translate(150px, 0);}
-  40% {transform: translate(150px,60px);}
-  60% {transform: translate(-30px,60px);}
-  80% {transform: translate(-30px,0);}
-  100% {transform: translate(0);}
+  0% {top: -10px; left: 10%;}
+  20% {top: -10px; left: 100%;}
+  40% {top: 60px; left: 100%;}
+  60% {top: 60px; left: 0%;}
+  80% {top: -10px; left: -10%;}
+  100% {top: -10px; left: 10%;}
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
@@ -186,10 +186,10 @@
   animation-timing-function: linear;
 }
 @keyframes rotate_bottom {
-  0% {transform: translate(0);}
-  20% {transform: translate(-100px, 0);}
-  40% {transform: translate(-100px,-60px);}
-  60% {transform: translate(99px,-60px);}
-  80% {transform: translate(99px,0);}
-  100% {transform: translate(0);}
+  0% {bottom: -10px; right: 20%;}
+  20% {bottom: -10px; right: 80%;}
+  40% {bottom: 60px; right: 80%;}
+  60% {bottom: 60px; right: -10%;}
+  80% {bottom: -10px; right: -10%;}
+  100% {bottom: -10px; right: 20%;}
 }
